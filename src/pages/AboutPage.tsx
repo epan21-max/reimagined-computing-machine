@@ -24,7 +24,7 @@ export default function AboutPage() {
         </h1>
         <p className="font-mono text-xs text-text-secondary">Streaming Anime, Donghua, Comic & Novel</p>
         <div className="flex justify-center gap-2 mt-3">
-          <span className="neo-tag bg-primary text-white">v1.5.9</span>
+          <span className="neo-tag bg-primary text-white">v2.2.0</span>
           <span className="neo-tag bg-success text-black">BETA</span>
         </div>
       </div>
@@ -65,7 +65,7 @@ export default function AboutPage() {
             { icon: Code, label: 'Developer', value: 'EpanD', color: 'text-primary' },
             { icon: Layers, label: 'Frontend', value: 'React + TypeScript', color: 'text-secondary' },
             { icon: Shield, label: 'Design', value: 'Neo Brutalism', color: 'text-danger' },
-            { icon: Zap, label: 'Version', value: 'v1.5.9 Beta', color: 'text-success' },
+            { icon: Zap, label: 'Version', value: 'v2.2.0 Beta', color: 'text-success' },
           ].map(info => (
             <div key={`${info.label}-${info.value}`} className="flex items-center gap-3 bg-darker border-2 border-black p-3 shadow-[2px_2px_0px_#000]">
               <info.icon size={16} className={info.color} />
@@ -126,7 +126,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {/* Saweria */}
           <a
-            href="https://saweria.co/epand"
+            href="https://saweria.co/epandlabs"
             target="_blank"
             rel="noopener noreferrer"
             className="neo-brutal bg-[#F59E0B] text-black p-4 flex items-center gap-4 group"
@@ -136,14 +136,14 @@ export default function AboutPage() {
             </div>
             <div className="flex-1 min-w-0">
               <p className="font-bold text-lg">Saweria</p>
-              <p className="font-mono text-[10px] text-black/60 uppercase">saweria.co/epand</p>
+              <p className="font-mono text-[10px] text-black/60 uppercase">saweria.co/epandlabs</p>
             </div>
             <ExternalLink size={16} className="text-black/40 group-hover:text-black transition-colors flex-shrink-0" />
           </a>
 
           {/* Trakteer */}
           <a
-            href="https://trakteer.id/epand"
+            href="https://trakteer.id/epandlabs"
             target="_blank"
             rel="noopener noreferrer"
             className="neo-brutal bg-[#BE1E2D] text-white p-4 flex items-center gap-4 group"
@@ -153,7 +153,7 @@ export default function AboutPage() {
             </div>
             <div className="flex-1 min-w-0">
               <p className="font-bold text-lg">Trakteer</p>
-              <p className="font-mono text-[10px] text-white/60 uppercase">trakteer.id/epand</p>
+              <p className="font-mono text-[10px] text-white/60 uppercase">trakteer.id/epandlabs</p>
             </div>
             <ExternalLink size={16} className="text-white/40 group-hover:text-white transition-colors flex-shrink-0" />
           </a>
