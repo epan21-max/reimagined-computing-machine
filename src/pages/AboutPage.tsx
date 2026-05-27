@@ -24,7 +24,7 @@ export default function AboutPage() {
         </h1>
         <p className="font-mono text-xs text-text-secondary">Streaming Anime, Donghua, Comic & Novel</p>
         <div className="flex justify-center gap-2 mt-3">
-          <span className="neo-tag bg-primary text-white">v1.5.9</span>
+          <span className="neo-tag bg-primary text-white">v2.2.0</span>
           <span className="neo-tag bg-success text-black">BETA</span>
         </div>
       </div>
@@ -65,7 +65,7 @@ export default function AboutPage() {
             { icon: Code, label: 'Developer', value: 'EpanD', color: 'text-primary' },
             { icon: Layers, label: 'Frontend', value: 'React + TypeScript', color: 'text-secondary' },
             { icon: Shield, label: 'Design', value: 'Neo Brutalism', color: 'text-danger' },
-            { icon: Zap, label: 'Version', value: 'v1.5.9 Beta', color: 'text-success' },
+            { icon: Zap, label: 'Version', value: 'v2.2.0 Beta', color: 'text-success' },
           ].map(info => (
             <div key={`${info.label}-${info.value}`} className="flex items-center gap-3 bg-darker border-2 border-black p-3 shadow-[2px_2px_0px_#000]">
               <info.icon size={16} className={info.color} />
@@ -90,7 +90,7 @@ export default function AboutPage() {
           {[
             { icon: Mail, label: 'Email', value: 'deandri.epan21@smp.belajar.id', href: 'mailto:deandri.epan21@smp.belajar.id', color: 'bg-primary' },
             { icon: MessageCircle, label: 'WhatsApp Chat', value: 'Author', href: 'https://wa.me/6283875950270?text=Halo+EpanD!', color: 'bg-surface-light' },  
-            { icon: MessageCircle, label: 'WhatsApp Channel', value: 'dxl', href: 'https://whatsapp.com/channel/0029Vb', color: 'bg-secondary' },
+            { icon: MessageCircle, label: 'WhatsApp Channel', value: 'dxl', href: 'https://whatsapp.com/channel/0029VbBwmFJKQuJK7xC9ga25', color: 'bg-secondary' },
             { icon: Globe, label: 'Portfolio', value: 'EpanXD', href: 'https://epannxd.my.id', color: 'bg-purple' },
           ].map(item => (
             <a
