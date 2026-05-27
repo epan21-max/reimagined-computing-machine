@@ -395,7 +395,7 @@ export default function HomePage() {
             {[
               { icon: Code, label: 'Developer', value: 'EpanD', color: 'text-primary' },
               { icon: Layers, label: 'Tech Stack', value: 'React + Vite + TailwindCSS', color: 'text-secondary' },
-              { icon: Zap, label: 'Version', value: 'v1.5.9 Beta', color: 'text-accent' },
+              { icon: Zap, label: 'Version', value: 'v2.2.0 Beta', color: 'text-accent' },
               { icon: Globe, label: 'Website', value: 'epandstream.biz.id', color: 'text-purple' },
             ].map(info => (
               <div key={info.label} className="bg-darker border-2 border-black p-3 shadow-[3px_3px_0px_#000]">
