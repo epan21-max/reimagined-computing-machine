@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import {
   ArrowLeft, Code, Layers, Zap, Globe, Mail,
   MessageCircle, Heart, ExternalLink, Coffee,
-  GitBranch, Tv, Film, BookOpen, Feather, Shield
+  Tv, Film, BookOpen, Feather, Shield
 } from 'lucide-react';
 
 export default function AboutPage() {
@@ -17,14 +17,14 @@ export default function AboutPage() {
       {/* Header */}
       <div className="neo-card p-6 sm:p-8 text-center mb-6">
         <div className="w-16 h-16 bg-primary border-3 border-black shadow-[4px_4px_0px_#000] flex items-center justify-center mx-auto mb-4">
-          <span className="font-mono font-bold text-white text-2xl">E</span>
+          <img src="https://pchs5.krakencloud.net/uploads/27-05-2026/upMEFpcd6i/image.png" alt="EpanDStream" />
         </div>
         <h1 className="text-3xl font-bold mb-1">
           Epan<span className="text-primary">D</span>Stream
         </h1>
         <p className="font-mono text-xs text-text-secondary">Streaming Anime, Donghua, Comic & Novel</p>
         <div className="flex justify-center gap-2 mt-3">
-          <span className="neo-tag bg-primary text-white">v2.2.0</span>
+          <span className="neo-tag bg-primary text-white">v1.5.9</span>
           <span className="neo-tag bg-success text-black">BETA</span>
         </div>
       </div>
@@ -65,7 +65,7 @@ export default function AboutPage() {
             { icon: Code, label: 'Developer', value: 'EpanD', color: 'text-primary' },
             { icon: Layers, label: 'Frontend', value: 'React + TypeScript', color: 'text-secondary' },
             { icon: Shield, label: 'Design', value: 'Neo Brutalism', color: 'text-danger' },
-            { icon: Zap, label: 'Version', value: 'v2.2.0 Beta', color: 'text-success' },
+            { icon: Zap, label: 'Version', value: 'v1.5.9 Beta', color: 'text-success' },
           ].map(info => (
             <div key={`${info.label}-${info.value}`} className="flex items-center gap-3 bg-darker border-2 border-black p-3 shadow-[2px_2px_0px_#000]">
               <info.icon size={16} className={info.color} />
